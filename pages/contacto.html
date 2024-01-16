@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/css/estilos.css" rel="stylesheet">
+    <link href="/css/normalize.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/6421b44a28.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+    <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+      <symbol id="check-circle-fill" viewBox="0 0 16 16">
+        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+      </symbol>
+      </svg>
+    <title>Hotel Soleares</title>
+</head>
+<body>
+
+<!-- header -->
+<header>
+  <nav class="navbar navbar-expand-lg bg-white d-flex ">
+    <div class="container-lg">
+
+      <a class="navbar-brand logo" href="#"><img src="/img/logo-nav2.png"></a>
+
+      <button class="navbar-toggler"type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse jcflex-end" id="navbarNav">
+        <ul class="navbar-nav nav-fs">
+          <li class="nav-item">
+            <a class="nav-link" href="/index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="habitaciones.html">Habitaciones</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="servicios.html">Servicios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="paseos.html">Lugares de interes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </div>
+
+    </div><!-- container lg centrado -->
+  </nav>
+
+  <div class="container-fluid redes">
+    <div class="container">
+      <nav class="redes-sociales">
+        <ul>
+          <li>
+            <span class="text-gray">Reservas por Whatsapp al:</span>&nbsp;
+            <i class="fa-brands fa-whatsapp text-white mr-4"></i>
+            0223-3425621 &nbsp; | 
+          </li>
+          <li>
+          Siguenos en:
+          </li>
+          <li>
+            <a href="https://www.facebook.com/HotelSolearesMDP/?locale=es_LA" class="redessociales">
+            <i class="fa fa-facebook-square" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/hotelsoleares/">
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<!-- end header -->
+
+<!-- main contenido -->
+
+<main>
+  <div class="container">
+    <div class="row mt-2">
+
+      <div class="col-6"> <h3>Contactenos</h3>
+        <hr>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Nombre completo:</label>
+          <input class="form-control" type="text" placeholder="Nombre completo" aria-label="default input example">
+          <label for="exampleFormControlInput1" class="form-label mt-3">Email:</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@email.com">
+          <label for="exampleFormControlInput1" class="form-label mt-3">Numero de telefono:</label>
+          <input class="form-control" type="number" placeholder="0112233445566" aria-label="default input example">
+        </div>
+        <div class="mb-3 mt-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Mensaje:</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          <input class="btn btn-primary mt-4 float-end" type="submit" value="Enviar mensaje">
+        </div>
+      </div>
+
+      <div class="col-6">
+        <h3>Donde encontrarnos</h3>
+        <hr>
+        <ul class="list mb-3">
+          <li><b>Direccion:</b> Gral. Angel Pacheco 2168, Mar del Plata, Buenos Aires</li>
+          <li><b>Telefono:</b> (0223) 484-0818 / 2794</li>
+          <li><b>Reservas:</b> 0223 3425621</li>
+          <li><b>Email:</b> hotelsoleares@hotmail.com</li>
+        </ul>
+
+      <!-- iframe google maps -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1867.802231608957!2d-57.549805959844626!3d-38.0644094409615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584ddff20a3c47b%3A0xc46918bea282a81e!2sHotel%20Soleares%20-%20Alojamiento%20en%20Mar%20del%20Plata%20-%20Hotel%20en%20Punta%20Mogotes!5e0!3m2!1ses!2sar!4v1697121137066!5m2!1ses!2sar" width="100%" height="320" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <!-- end iframe google maps -->
+      </div>
+    </div>
+  </div>
+</main>
+
+<!--end main contenido -->
+
+
+<!-- footer -->
+<footer class="bg-dark mt-4">
+  <div class="container">
+    <div class="row footer-items">
+      <div class="col-3">
+        <h3>Hotel soleares</h3>
+        <hr>
+        <p>Desde 1985, atendido por sus dueños, haciendo que pases las mejores vacaciones en familia.
+        ¡Te Esperamos!</p>
+      </div>
+
+    <div class="col-3">
+      <h3>Datos del Hotel</h3>
+      <hr>
+      <ul>
+        <li>Gral.Pacheco 2168, Mar del Plata</li>
+        <li>info@hotelsoleares.com.ar</li>
+        <li> +54 9 223 4840818</li>
+        <li>+54 9 223 4842794</li>
+      </ul>
+    </div>
+
+    <div class="col-3">
+      <h3>Mapa del sitio</h3>
+      <hr>
+      <ul>
+        <li><a href="">Inicio</a></li>
+        <li><a href="">Habitaciones</a></li>
+        <li><a href=""> Servicios</a></li>
+        <li><a href="">Lugares de interes</a></li>
+        <li><a href="">Contacto</a></li>
+      </ul>
+    </div>
+
+    <div class="col-3">
+      <h3>Siguenos:</h3>
+      <hr>
+      <ul>
+        <li><a href="">Facebook</a></li>
+        <li><a href="">Instagram</a></li>
+        <li><a href="">Whatsapp</a></li>
+      </ul>
+    </div>
+
+      <div class="col-12 mt-4 text-alignC">
+        <p>todo los derechos reservados ] Hotel Soleares 2024</p>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- end footer -->
+
+<!-- script js boostrap --->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+</html>
+
+
+
