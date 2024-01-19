@@ -13,15 +13,14 @@ body {
  }
  
  .banner {
-     background-image: url(https://github.com/sslucasmv/preentrega2coder/blob/master/img/bannermardel.png);
-     background-repeat: no-repeat;
+    background-color: #000;
      width: 100%;
      height: 25rem;
      display: flex;
      align-items: center;
      justify-content: center;
      flex-direction: row;
-     border-bottom: 10px solid #F0BE10;
+     border-bottom: 10px solid black;
  }
  
  .cont-p {
