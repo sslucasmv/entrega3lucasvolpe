@@ -113,6 +113,35 @@ h2,h3 { color:#1A3755 !important}
 
 /* end card comments */
 
+
+/* cards personalizadas */
+
+.cont-cards {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.cont-cards .card{
+    width: 22rem;
+
+}
+
+/* end cont cards */
+
+/* google maps */
+
+.map-google {
+    width:100%;
+    height:20rem;
+    border:none;
+}
+
+
+/* end style map google*/
+
+
 .form-label {
     font-weight:600;
 
