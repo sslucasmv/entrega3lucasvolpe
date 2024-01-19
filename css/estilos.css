@@ -184,7 +184,7 @@ h2,h3 { color:#1A3755 !important}
     
 }
 
-.fa-instagram , .fa-facebook-square{
+.fa-instagram , .fa-facebook-square , .icon-ws-footer{
     font-size: 1.125rem !important;
     color: #fafafa;
     margin-top: .25rem;
@@ -239,7 +239,23 @@ ul.list li b {
     margin:0.125rem 0 0 0;
     padding: 0;
     font-size: .875rem;
+}
 
+.footer-items a{
+    color:#fafafa;
+}
+
+.footer-items a:hover {
+    color:#F0BE10;
+}
+
+ul.footer-social li a {
+    text-decoration: none;
+}
+
+.icon-footer {
+    display: block;
+    margin-right: .5rem
 }
 
 .text-alignC { text-align: center;
