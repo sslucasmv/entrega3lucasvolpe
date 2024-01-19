@@ -23,7 +23,7 @@ body {
      align-items: center;
      justify-content: center;
      flex-direction: row;
-     border-bottom: 10px solid blueviolet;
+     border-bottom: 10px solid #666;
  }
  
  .cont-p {
@@ -176,7 +176,7 @@ body {
  a.nav-link:hover {
      color:#444;
      display: flex;
-     border-bottom: 3px solid #029DCA;
+     border-bottom: 3px solid #ddd;
      background-color: #fafafa;
  } 
  
