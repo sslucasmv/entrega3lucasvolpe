@@ -12,9 +12,8 @@ h2,h3 {
     justify-content: flex-end;
 }
 
-.banne {
+.banner {
     background-color: #000;
-  
     width: 100%;
     height: 25rem;
     display: flex;
