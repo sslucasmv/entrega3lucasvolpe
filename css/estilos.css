@@ -16,14 +16,13 @@ body {
     background-image: url('../img/banner.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    /*background-color: #000;*/
      width: 100%;
      height: 25rem;
      display: flex;
      align-items: center;
      justify-content: center;
      flex-direction: row;
-     border-bottom: 10px solid #666;
+     border-bottom: 10px solid #333;
  }
  
  .cont-p {
