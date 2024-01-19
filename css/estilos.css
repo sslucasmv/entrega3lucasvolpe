@@ -4,20 +4,39 @@ body {
     font-family: "Karla", sans-serif;
 }
 
-h2,h3 { color:#1A3755 !important}
-
-
+h2,h3 {
+    color:#1A3755 !important
+}
 
 .jcflex-end {
     justify-content: flex-end;
-
 }
 
 .banner {
-    background-image: url(/img/banner.jpg);
-    background-repeat: no-repeat;
+    background: url(/img/banner.jpg);
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
     width: 100%;
     height: 25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    border-bottom: 10px solid #666;
+}
+
+.cont-p {
+    width: 60%;
+    background-color: rgba(33, 42, 49, 0.589);
+    padding:10px 30px 5px 30px;
+    border-radius: 4px;
+}
+
+p.text-banner {
+    font-size: 1.375rem;
+    color:#fff;  
 }
 
 .bg-com {
@@ -92,27 +111,20 @@ h2,h3 { color:#1A3755 !important}
 
 .comment-stars {
     margin-left:1rem;
-
-
 }
 
 .card-comment blockquote {
     margin: 0.600rem;
     padding: .875rem !important;
-    
-
 }
 
 .p-comment {
     font-family: "IBM Plex Sans", sans-serif;
     font-weight: 500;
-    font-size:1rem;
-    
+    font-size:1rem;   
 }
 
-
 /* end card comments */
-
 
 /* cards personalizadas */
 
@@ -125,10 +137,7 @@ h2,h3 { color:#1A3755 !important}
 
 .cont-cards .card{
     width: 22rem;
-
 }
-
-/* end cont cards */
 
 /* google maps */
 
@@ -138,18 +147,16 @@ h2,h3 { color:#1A3755 !important}
     border:none;
 }
 
-
 /* end style map google*/
-
 
 .form-label {
     font-weight:600;
-
 }
 
 .nav-fs {
     font-size: 1.125rem;
 }
+
 
 .navbar-nav ul li a {
     color: #ccc;
@@ -157,10 +164,28 @@ h2,h3 { color:#1A3755 !important}
     font-weight: 400;
 }
 
-
 .navbar-nav ul li a:hover {
     color: #1A3755;
+    background-color: #ddd;
 }
+
+a.nav-link {
+    border-bottom: 3px solid #fff;
+    padding: 10px 15px 10px 15px;
+}
+
+a.nav-link:hover {
+    color:#444;
+    display: flex;
+    border-bottom: 3px solid #029DCA;
+    background-color: #fafafa;
+} 
+
+a.active {
+    color: skyblue;
+    border-bottom: 3px solid #029DCA !important;
+}
+
 
 .redes {
     height: 2.1875rem;
@@ -179,9 +204,7 @@ h2,h3 { color:#1A3755 !important}
 .redes nav ul li {
     margin-top: .3125rem;
     margin-left: .625rem;
-    font-size: .9375rem;
-    
-    
+    font-size: .9375rem;   
 }
 
 .fa-instagram , .fa-facebook-square , .icon-ws-footer{
@@ -202,7 +225,7 @@ h2,h3 { color:#1A3755 !important}
 ::placeholder {
     color: #c1c1c1 !important;
     opacity: 1; /* Firefox */
-  }
+}
 
 ul.list {
     list-style: none;
@@ -235,6 +258,7 @@ ul.list li b {
     margin: 0;
     padding:0;
 }
+
 .footer-items ul li {
     margin:0.125rem 0 0 0;
     padding: 0;
@@ -272,7 +296,7 @@ ul.footer-social li a {
     font-size: 1.125rem;
     font-weight:bolder;
     margin-top: .625rem;
-    color:#CF9203 !important;
-    text-shadow: 1px 1px 2px #E9DE58 ;
+    color:#FF6600 !important;
+    text-shadow: 1px 1px 2px #ddd ;
 }
 
