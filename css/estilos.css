@@ -22,7 +22,7 @@ body {
      align-items: center;
      justify-content: center;
      flex-direction: row;
-     border-bottom: 10px solid #333;
+     border-bottom: 10px solid #999;
  }
  
  .cont-p {
