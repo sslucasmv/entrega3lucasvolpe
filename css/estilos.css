@@ -270,7 +270,9 @@ ul.footer-social li a {
 
 .info-advice p {
     font-size: 1.125rem;
-    font-weight: 400;
+    font-weight:bolder;
     margin-top: .625rem;
+    color:#CF9203 !important;
+    text-shadow: 1px 1px 2px #E9DE58 ;
 }
 
