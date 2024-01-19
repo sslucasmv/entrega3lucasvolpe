@@ -13,7 +13,7 @@ body {
  }
  
  .banner {
-    background-image: url(/img/desayuno.png);
+    background-image: url(https://raw.githubusercontent.com/sslucasmv/preentrega2coder/master/img/bannermdp.jpg);
     /*background-color: #000;*/
      width: 100%;
      height: 25rem;
