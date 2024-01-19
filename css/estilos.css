@@ -13,7 +13,8 @@ body {
  }
  
  .banner {
-    background-color: #000;
+    background-image: url(/img/desayuno.png);
+    /*background-color: #000;*/
      width: 100%;
      height: 25rem;
      display: flex;
