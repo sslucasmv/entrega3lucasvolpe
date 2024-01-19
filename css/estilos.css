@@ -21,7 +21,7 @@ h2,h3 {
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    border-bottom: 10px solid black;
+    border-bottom: 10px solid #ccc;
 }
 
 .cont-p {
