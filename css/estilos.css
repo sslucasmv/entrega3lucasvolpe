@@ -17,6 +17,18 @@ body {
  }
 
 
+ .info-footer ul li a{
+    list-style: none;
+    text-decoration: none !important;
+
+ }
+
+.link-dnone{
+    text-decoration: none !important;
+
+}
+
+
 
 .redes nav ul li {
     font-size: 1rem;   
@@ -30,6 +42,7 @@ body {
 .ds-none {
     display: none;
 }
+
 
 
 /* banner index */
