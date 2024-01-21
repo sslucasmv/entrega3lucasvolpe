@@ -78,43 +78,58 @@
       </div>
     </header>
 
+    <!-- main contenido principal -->
     <main>
       <div class="container">
-        <div class="row mt-2">
-          <div class="col-12">
+        <div class="row mt-2 p-2">
+          
+          
             <h3>Lugares de interes cercanos</h3>
-            <hr>
-            <!-- cards -->
-            <div class="cont-cards" style="display: flex;flex-direction: row; gap: 20px; justify-content: space-around;">
-              <div class="card" style="width: 22rem;">
-                <img src="../img/playas.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Playas de Punta Mogotes</h5>
-                  <p class="card-text">
-                  &nbsp;Mar del Plata es sinónimo de playas.La ciudad ofrece una variedad de playas que se adaptan a todos los gustos. Desde las populares y animadas playas del centro, perfectas para quienes buscan actividades y servicios, hasta las más tranquilas y apartadas, ideales para el relax y la contemplación del océano. Las playas de Mar del Plata invitan a sumergirse en sus refrescantes aguas, jugar un partido de beach vóley o simplemente relajarse bajo el sol.</p> 
-                  </p>
-                </div>
-              </div>
+          <hr>
 
-              <div class="card" style="width: 22rem;">
-                <img src="../img/puerto.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Puerto de Mar del Plata</h5>
-                  <p class="card-text"> &nbsp;Es una mezcla viva de tradición y modernidad. Reconocido por su flota pesquera, es un lugar donde las embarcaciones coloridas se alinean a lo largo de sus muelles, mientras que los lobos marinos toman el sol y juegan en sus bordes. Los visitantes pueden pasear y disfrutar del aire fresco del mar, degustar los más frescos frutos del mar en los restaurantes locales, o simplemente observar el ir y venir de los barcos.</p>
-                </div>
-              </div>
-
-              <div class="card" style="width: 22rem;">
-                <img src="../img/bosque.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Bosque Peralta Ramos</h5>
-                  <p class="card-text"> &nbsp;Es un oasis verde en medio de la vibrante Mar del Plata. Este parque forestal de más de 400 hectáreas es un refugio de tranquilidad, con senderos serpenteantes que atraviesan densos pinares y eucaliptos. Es el lugar ideal para quienes buscan desconectar del ruido de la ciudad y conectarse con la naturaleza. Se pueden escuchar los cantos de las aves, respirar el aire fresco con aroma a pino y descubrir pequeñas cafeterías y restaurantes escondidos entre los árboles.</p>
-                </div>
-              </div>
+          <!-- cards  -->
+          <div class="card-default col-sm-12 col-12 col-md-4 col-lg-4 mb-3">
+            <div class="card-h">
+              <img src="/img/playas.png">
             </div>
-            <!-- end cards -->
+            <div class="card-f mheight">
+              <h2>Playas de Punta mogotes</h2>
+              <p>
+                Mar del Plata es sinónimo de playas.La ciudad ofrece una variedad de playas que se adaptan a todos los gustos. 
+              </p>
+            </div>
           </div>
-        </div>
+          <!-- item card -->
+
+          <!-- cards  -->
+          <div class="card-default col-12 col-sm-12 col-md-4 col-lg-4 mb-3 ">
+            <div class="card-h">
+              <img src="/img/puerto.png">
+            </div>
+            <div class="card-f mheight">
+              <h2>Puerto</h2>
+              <p>
+                Es una mezcla viva de tradición y modernidad. Reconocido por su flota pesquera, es un lugar donde las embarcaciones coloridas se alinean a lo largo de sus muelles, mientras que los lobos marinos toman el sol y juegan en sus bordes.
+              </p>
+            </div>
+          </div>
+          <!-- item card -->
+        
+          <!-- cards  -->
+          <div class="card-default col-sm-12 col-12 col-md-4 col-lg-4 mb-3">
+            <div class="card-h">
+              <img src="/img/bosque.png">
+            </div>
+            <div class="card-f mheight">
+              <h2>Bosque Peralta Ramos</h2>
+              <p>
+                Es un oasis verde en medio de la vibrante Mar del Plata. Este parque forestal de más de 400 hectáreas es un refugio de tranquilidad, con senderos serpenteantes que atraviesan densos pinares y eucaliptos.
+              </p>
+            </div>
+          </div>
+          <!-- item card -->
+          </div>
+     
       </div>
 
       <article class="alert-warning alert container info-advice">
@@ -126,17 +141,18 @@
     <footer class="bg-dark mt-4">
       <div class="container">
         <div class="row footer-items">
-          <div class="col-3">
+        <div class="col-lg-12"> 
+          <div class="col-lg-3 ds-none">
             <h3>Hotel soleares</h3>
             <hr>
             <p>Desde 1985, atendido por sus dueños, haciendo que pases las mejores vacaciones en familia.</p>
             <p>¡Te Esperamos!</p>
           </div>
 
-          <div class="col-3">
-            <h3>Datos del Hotel</h3>
-            <hr>
-            <ul>
+          <div class="col-lg-3 col-md-6 col-xs-6">
+            <h3 class="ds-none">Datos del Hotel</h3>
+            <hr class="ds-none">
+            <ul class="info-footer">
               <li>
               <i class="fa fa-map-marker icon-footer" aria-hidden="true"></i>
               Gral.Pacheco 2168, Mar del Plata
@@ -152,21 +168,33 @@
               <i class="fa-brands fa-whatsapp text-white mr-4 icon-footer"></i>
               223-3425621
             </li>
+            siguenos en: 
+            <a class="link-dnone" href="https://www.facebook.com/HotelSolearesMDP">
+              <i class="fa fa-facebook-square link-dnone"></i>
+            </a>
+
+            <a href="https://www.instagram.com/hotelsoleares/">
+              <i class="fa fa-instagram icon-footer" aria-hidden="true"></i>
+            </a>
+            </li>
+          
             </ul>
-          </div>  
-          <div class="col-3">
+          </div> 
+
+          <div class="col-lg-3  ds-none">
             <h3>Mapa del sitio</h3>
             <hr>
             <ul>
-              <li><a href="../index.html">Inicio</a></li>
-              <li><a href="habitaciones.html">Habitaciones</a></li>
-              <li><a href="servicios.html"> Servicios</a></li>
-              <li><a href="paseos.html">Lugares de interes</a></li>
-              <li><a href="contacto.html">Contacto</a></li>
+              <li><a href="index.html">Inicio</a></li>
+              <li><a href="pages/habitaciones.html">Habitaciones</a></li>
+              <li><a href="pages/servicios.html"> Servicios</a></li>
+              <li><a href="pages/paseos.html">Lugares de interes</a></li>
+              <li><a href="pages/contacto.html">Contacto</a></li>
+             
             </ul>
           </div>
 
-          <div class="col-3">
+          <div class="col-lg-3 col-md-6 col-xs-6 ds-none">
             <h3>Siguenos:</h3>
             <hr>
             <ul class="footer-social">
@@ -194,6 +222,7 @@
             <p>Hotel Soleares 2024. Todo los derechos reservados </p>
           </div>
         </div>
+        
       </div>
     </footer>
     <!-- end footer -->

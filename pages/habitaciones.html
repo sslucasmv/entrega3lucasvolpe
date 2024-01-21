@@ -79,41 +79,48 @@
 
     <main>
       <div class="container">
-        <div class="row mt-2">
-          <div class="col-12">
-            <h3>Habitaciones</h3>
-            <hr>
-          <!-- cards -->
-            <div class="cont-cards">
-              <div class="card">
-                <img src="../img/hab1.png" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Habitacion doble</h5>
-                  <p class="card-text">Habitaciones con camas de dos plazas, que poseen ba;o privado, excelente iluminacion, tv por cable, frigobar.</p>
-                </div>
-              </div>
-
-              <div class="card">
-                <img src="../img/hab2.png" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Habitacion doble Triple</h5>
-                  <p class="card-text">Cuentan con una cama de dos plazas y otras de tres  camas individuales</p>
-              </div>
-              </div>
-
-              <div class="card">
-                <img src="../img/hab3.png" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Habitacion cuadruple</h5>
-                  <p class="card-text">Contamos con habitaciones para cuatro personas, distribuidas en una cama de dos plazas y dos cama de una plaza.</p>
-                </div>
-              </div>
+        <div class="row mt-2 p-2">
+          
+          <h3>Habitaciones</h3>
+          <hr>
+          <!-- cards  -->
+          <div class="card-default col-12 col-sm-12 col-md-4 col-lg-4 mb-3">
+            <div class="card-h">
+              <img src="/img/hab1.png">
             </div>
-          <!-- end cards -->
+            <div class="card-f">
+              <h2>Habitacion doble </h2>
+              <p>Habitaciones con camas de dos plazas, que poseen ba;o privado, excelente iluminacion, tv por cable, frigobar.</p>
+            </div>
           </div>
+          <!-- item card -->
+
+          <!-- cards  -->
+          <div class="card-default col-12 col-sm-12 col-md-4 col-lg-4 mb-3 ">
+            <div class="card-h">
+              <img src="/img/hab2.png">
+            </div>
+            <div class="card-f">
+              <h2>Habitacion triple</h2>
+              <p>Cuentan con una cama de dos plazas y otras de tres camas individuales</p>
+            </div>
+          </div>
+          <!-- item card -->
+        
+          <!-- cards  -->
+          <div class="card-default col-12 col-sm-12 col-md-4 col-lg-4 mb-3">
+            <div class="card-h">
+              <img src="/img/hab3.png">
+            </div>
+            <div class="card-f">
+              <h2>Habitacion cuadruple</h2>
+              <p>Contamos con habitaciones para cuatro personas, distribuidas en una cama de dos plazas y dos cama de una plaza.</p>
+            </div>
+          </div>
+          <!-- item card -->
         </div>
       </div>
-      <!-- promo -->
+
       <article class="alert-warning alert container info-advice">
         <p>Durante Enero y Febrero alojandote en nuestro Hotel, tendras 50% de descuento en los Balnearios 22 y 23.</p>
       </article>
@@ -123,17 +130,17 @@
     <footer class="bg-dark mt-4">
       <div class="container">
         <div class="row footer-items">
-          <div class="col-3">
+          <div class="col-lg-3 ds-none">
             <h3>Hotel soleares</h3>
             <hr>
             <p>Desde 1985, atendido por sus dueños, haciendo que pases las mejores vacaciones en familia.</p>
             <p>¡Te Esperamos!</p>
           </div>
 
-          <div class="col-3">
-            <h3>Datos del Hotel</h3>
-            <hr>
-            <ul>
+          <div class="col-lg-3 col-md-6 col-xs-6">
+            <h3 class="ds-none">Datos del Hotel</h3>
+            <hr class="ds-none">
+            <ul class="info-footer">
               <li>
               <i class="fa fa-map-marker icon-footer" aria-hidden="true"></i>
               Gral.Pacheco 2168, Mar del Plata
@@ -149,21 +156,33 @@
               <i class="fa-brands fa-whatsapp text-white mr-4 icon-footer"></i>
               223-3425621
             </li>
+            siguenos en: 
+            <a class="link-dnone" href="https://www.facebook.com/HotelSolearesMDP">
+              <i class="fa fa-facebook-square link-dnone"></i>
+            </a>
+
+            <a href="https://www.instagram.com/hotelsoleares/">
+              <i class="fa fa-instagram icon-footer" aria-hidden="true"></i>
+            </a>
+            </li>
+          
             </ul>
-          </div>  
-          <div class="col-3">
+          </div> 
+
+          <div class="col-lg-3  ds-none">
             <h3>Mapa del sitio</h3>
             <hr>
             <ul>
-              <li><a href="../index.html">Inicio</a></li>
-              <li><a href="habitaciones.html">Habitaciones</a></li>
-              <li><a href="servicios.html"> Servicios</a></li>
-              <li><a href="paseos.html">Lugares de interes</a></li>
-              <li><a href="contacto.html">Contacto</a></li>
+              <li><a href="index.html">Inicio</a></li>
+              <li><a href="pages/habitaciones.html">Habitaciones</a></li>
+              <li><a href="pages/servicios.html"> Servicios</a></li>
+              <li><a href="pages/paseos.html">Lugares de interes</a></li>
+              <li><a href="pages/contacto.html">Contacto</a></li>
+             
             </ul>
           </div>
 
-          <div class="col-3">
+          <div class="col-lg-3 col-md-6 col-xs-6 ds-none">
             <h3>Siguenos:</h3>
             <hr>
             <ul class="footer-social">
@@ -191,6 +210,7 @@
             <p>Hotel Soleares 2024. Todo los derechos reservados </p>
           </div>
         </div>
+        
       </div>
     </footer>
     <!-- end footer -->
