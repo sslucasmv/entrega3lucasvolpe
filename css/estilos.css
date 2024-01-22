@@ -214,7 +214,7 @@ main {
     background-position:0 5%;
      width: 100%;
      /*height: 25rem;*/
-     height: 12.5rem;
+     height:22.5rem;
      display: flex;
      align-items: center;
      justify-content: center;
@@ -456,8 +456,19 @@ ul.footer-social li a {
 
 }
 
+@media only screen and (min-width:768px){
+ 
+    .card-f.mheight {
+        min-height: 140px !important;
+    }
 
+
+    
+
+}
 /* pantalla de pc  */
+
+
 
 @media only screen and (min-width:940px){
     .col-sm-ds-none {
@@ -474,8 +485,6 @@ ul.footer-social li a {
 
     }
 
-
-
  /* elementos menu top  */
  .cont-cards {
     display: flex;
@@ -484,13 +493,6 @@ ul.footer-social li a {
     width: 100% !important;
 }
 
-.card-f {
-    min-height:240px !important;
-}
-
-.card-f.mheight {
-    min-height: 300px !important;
-}
 
 .ds-none {
      display: block;
@@ -512,7 +514,7 @@ ul.footer-social li a {
 
 .banner { 
     display:flex;
-    height: 25rem;
+    /*height: 25rem;*/
 }
 
 .titulobanner {
@@ -693,4 +695,13 @@ ul.footer-social li a {
  .cont-cards .card {
     width: 33% !important;
  }
+}
+
+@media only screen and (min-width:992px){
+
+
+.card-f.mheight {
+    min-height: 230px !important;
+}
+
 }
