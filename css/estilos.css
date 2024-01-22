@@ -93,7 +93,7 @@ a.active {
     padding: 10px;
     background-color: #fff;
     border:1px solid #ddd;
-    height: 150px !important;
+    height: auto !important;
 }
 
 
