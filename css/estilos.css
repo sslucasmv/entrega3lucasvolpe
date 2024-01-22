@@ -454,9 +454,15 @@ ul.footer-social li a {
 
 @media only screen and (min-width:768px){
 
+    .card-f{
+        min-height:140px;
+
+
+    }
     .card-f.mheight {
         min-height: 140px !important;
     }
+
 }
 
 /* pantallas de escritorio */
@@ -678,7 +684,7 @@ ul.footer-social li a {
 @media only screen and (min-width:992px){
 
     .card-f.mheight {
-        min-height: 230px !important;
+        min-height: 210px !important;
     }
 
 }
