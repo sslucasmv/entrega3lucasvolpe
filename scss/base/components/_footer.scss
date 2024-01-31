@@ -17,6 +17,10 @@ ul.list {
     font-weight:medium;
  }*/
  
+footer {
+   background-color: map-get($bgColor , Footer );
+}
+
  .footer-items {
     margin-top:1rem;
     color: #fafafa;
@@ -24,7 +28,7 @@ ul.list {
  }
  
  .footer-items h3 {
-    font-size: 1.25rem;
+   font-size: map-get($fontSize, fonts20);
     color: #ccc !important;
  }
 
@@ -37,7 +41,7 @@ ul.list {
                     li {
                     margin:0.375rem 0  .3rem 0 !important;
                     padding: 0;
-                    font-size: .875rem;
+                    font-size: map-get($fontSize, fonts14);
                     
  
                     a   {

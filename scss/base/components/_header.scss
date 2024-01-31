@@ -2,7 +2,7 @@
 
 body {
 
-    background-color:#F9F8F7 !important;
+    background-color: map-get($bgColor, Body) !important;
     font-family: "Karla", sans-serif;
 }
 
@@ -11,6 +11,10 @@ body {
 /* elementos menu top  */
 
 /* #### HEADER #### */
+
+header {
+   background-color: map-get($bgColor,Header);
+}
 
 .logo img {
     width: 12.5rem;
@@ -54,7 +58,11 @@ body {
  .redes {
     height:100px;
     display: none;
- }
+    color: #fafafa;
+    background-color: map-get($bgColor , SocialBar );
+    }
+
+
  
  .info-footer li a{
     list-style: none;
@@ -67,5 +75,5 @@ body {
  }
  
  .redes nav ul li {
-    font-size: 1rem;   
+   font-size: map-get($fontSize, fonts16); 
  }

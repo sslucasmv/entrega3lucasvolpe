@@ -6,17 +6,17 @@
  }
  
  .info-advice {
-     padding:0.625rem;
-     text-align: center;
-     margin-top: .9375rem;
-     border-radius: 2px;
+    @include flex-center;
+    @include promoAviso;
+    margin-top: .9375rem;
+    text-align: center;
+ 
  }
  
  .info-advice h2 {
      font-size: 1.25rem;
      font-weight:bolder;
      margin-top: .625rem;
-     color:RED!important;
      text-shadow: 1px 1px 2px #ddd ;
  }
  

@@ -1,12 +1,12 @@
 /* banner */
 
 .banner {
+   @include flex-row-center;
+    width: 100%;
+    height:12.5rem;
     background-size: cover;
     background-repeat: no-repeat;
     background-position:0 5%;
-    width: 100%;
-    height:12.5rem;
-    @include disF-jContent-Ai(flex,row,center,center); 
     border-bottom: 10px solid #1A3755;
  }
  
@@ -37,7 +37,7 @@
  }
  
  .banner .cont-p p.text-banner {
-    display: map-get($display , displayN )
+    display:none;
  }
  
  .banner .cont-p h1 {

@@ -1,21 +1,55 @@
 
-@mixin disF-jContent($d,$f,$Jc){
-    display: $d;
-    flex-direction:$f;
-    justify-content:$Jc;
+@mixin flex-row-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+@mixin flexColSE {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  @mixin flex-center {
+    display: flex;
+    justify-content: center;
+  }
+
+  @mixin  flex-col {
+  display: flex;
+  flex-direction: column;
+  }
+
+@mixin flex-row {
+    display: flex;
+    flex-direction: row !important;
 }
 
-@mixin disF-tAlign($d,$f,$Ta){
-    display: $d;
-    flex-direction:$f;
-    align-items:$Ta;
-}
+  @mixin flex-row-start {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
 
+  @mixin flex-row-space-evenly {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
 
-@mixin disF-jContent-Ai($d,$f,$Jc,$Ai) {
-    display: $d;
-    flex-direction:$f;
-    justify-content:$Jc;
-    align-items:$Ai;
-}
+  @mixin flex-row-end {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  @mixin promoAviso {
+        padding:1.25rem;
+        border:1px solid #FFE084;
+        border-radius:6px;
+        color: #D15001;
+        background-color: #FFEAA8;
+  }
 

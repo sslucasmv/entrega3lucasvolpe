@@ -4,11 +4,19 @@ $fontSize:(
     fonts20:1.25rem,
     fonts18:1.125rem,
     fonts16:1rem,
+    fonts15:.9375rem,
     fonts14:.875rem,
 );
 
-$display:(
-    displayF:flex,
-    displayB:block,
-    displayN:none,
+$bgColor:(
+    Body:#F9F8F7,
+    Header:#fff, 
+    SocialBar:#1A3755,
+    Footer:#323A40,
 );
+
+$bgColorComponents:(
+    CardFooter:#fff,
+    CardComment:#fafafa,
+    CardAvatar:#666666,
+)

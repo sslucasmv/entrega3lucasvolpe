@@ -2,17 +2,16 @@
 /* default pantalla smarthphone - (mobile first) */
 
 
-
+@import "./base/components/reset";
 @import "./base/utilities/maps";
 @import "./base/utilities/mixins";
-@import "./base/components/reset";
 @import "./base/components/header";
 @import "./base/components/cards";
 @import "./base/components/banner";
 @import "./base/components/promo";
 @import "./base/components/footer";
 @import "./base/components/mediaQueries";
-@import "./base/components/curso";
+
 
 /* ### FOOTER ###*/
 
