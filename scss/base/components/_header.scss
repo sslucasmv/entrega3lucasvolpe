@@ -1,0 +1,71 @@
+
+
+body {
+
+    background-color:#F9F8F7 !important;
+    font-family: "Karla", sans-serif;
+}
+
+
+
+/* elementos menu top  */
+
+/* #### HEADER #### */
+
+.logo img {
+    width: 12.5rem;
+    height: 3.4375rem;
+ }
+ 
+ /* menu top */
+ 
+ .nav-fs {
+    font-size: 1.125rem;
+ }
+ 
+ .navbar-nav ul li a { 
+    color: #ccc;
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+ }
+ 
+ .navbar-nav ul li a:hover {
+    color: #1A3755;
+    background-color: #ddd;
+ }
+ 
+ a.nav-link {
+    border-bottom: 3px solid #fff;
+    padding: 10px 15px 10px 15px;
+ }
+ 
+ a.nav-link:hover {
+    color:#444;
+    display: flex;
+    border-bottom: 3px solid #ddd;
+    background-color: #fafafa;
+ } 
+ 
+ a.active {
+    color: skyblue;
+    border-bottom: 3px solid #029DCA !important;
+ }
+ 
+ .redes {
+    height:100px;
+    display: none;
+ }
+ 
+ .info-footer li a{
+    list-style: none;
+    text-decoration: none !important;
+ 
+ }
+ 
+ .link-dnone{
+    text-decoration: none !important;
+ }
+ 
+ .redes nav ul li {
+    font-size: 1rem;   
+ }

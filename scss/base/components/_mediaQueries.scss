@@ -1,0 +1,336 @@
+
+/* final estilos mobile first */
+
+
+@media only screen and (min-width:480px){
+   
+    .map-google {
+        width:100%;
+        height:16rem;
+    }
+ 
+ }
+ 
+ /* version tablet */
+ 
+ @media only screen and (min-width:600px){
+    
+    .map-google {
+        width:100%;
+        height:20rem;
+    }
+ 
+    h3.ds-none {
+        display: none !important;
+    }
+ 
+    .map-google {
+        width:100%;
+        height:18rem;
+    }
+ 
+    .col-sm-ds-none {
+        display: none;
+ 
+    }
+ 
+    .col-md-ds-none {
+        display: none;
+ 
+    }
+ }
+ 
+ @media only screen and (min-width:720px){
+    
+    h3.ds-none {
+        display:none !important
+    }
+ 
+    hr.ds-none {
+        display: none !important;
+    }
+ 
+    .map-google {
+        width:100%;
+        height:18rem;
+    }
+ 
+    .col-sm-ds-none {
+        display: none;
+    }
+ 
+    .col-md-ds-none {
+        display:none;
+    }
+ 
+    .ds-lg-none {
+        display: none !important;
+    }
+ 
+ }
+ 
+ @media only screen and (min-width:748px){
+    
+    h3.ds-none {
+        display:block !important
+    }
+ 
+    hr.ds-none {
+        display:block !important
+    }
+ 
+    .map-google {
+        width:100%;
+        height:18rem;
+    }
+ 
+    .col-sm-ds-none {
+        display: none;
+    }
+ 
+    .col-md-ds-none {
+        display:block;
+    }
+ 
+    li.ds-lg-none {
+        display:none !important;
+    }
+ 
+ }
+ 
+ @media only screen and (min-width:768px){
+ 
+    .card-f{
+        min-height:140px;
+ 
+ 
+    }
+    .card-f.mheight {
+        min-height: 140px !important;
+    }
+ 
+ }
+ 
+ /* pantallas de escritorio */
+ 
+ @media only screen and (min-width:940px){
+ 
+    .col-sm-ds-none {
+        display: block;
+    }
+ 
+    li.ds-lg-none {
+        display:none !important;
+    }
+ 
+    .col-md-ds-none {
+        display: block;
+    }
+ 
+ 
+    .cont-cards {
+        display: flex;
+        flex-direction: row !important;
+        gap: 20px;
+        width: 100% !important;
+    }
+ 
+    .ds-none {
+        display: block;
+    }
+ 
+    h2,h3 {
+        color:#1A3755 !important
+    }
+ 
+    .jcflex-end {
+        justify-content: flex-end;
+    }
+ 
+    .display-v {
+        display: flex !important;
+    }
+ 
+    /* banner mas alto  */
+ 
+    .banner { 
+        display:flex;
+        height:22.5rem ;
+    }
+ 
+    .banner .cont-p p.text-banner {
+        display: flex;
+     }
+    
+ 
+    .titulobanner {
+        display: none;
+    }
+ 
+    .banner .cont-p {
+        width: 60%;
+        padding:10px 30px 5px 30px;
+        border-radius: 4px;
+    }
+ 
+    p.text-banner {
+        display: flex;
+        font-size: 1.375rem;
+        color:#fff;  
+    }
+ 
+    /* comentarios clientes - booking  */
+ 
+    .bg-com {
+        background-color: #F8F9FA !important;
+    }
+ 
+    .titulo-booking {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+ 
+    .titulo-booking h2 {
+        font-size: 1.25rem;
+    }
+ 
+    .titulo-booking h3 {
+        font-size: 1rem;
+    }
+ 
+    .titulo-booking h4 {
+        font-size: .875rem;
+    }
+ 
+    /* comentarios booking - card commentarios  */
+ 
+    .cont-comment {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction:  row;
+        justify-content:space-evenly;
+        gap: 5px;
+        margin-top:1.875rem;
+        padding-bottom: 1.25rem;
+    }
+ 
+    .cont-comment .card-comment {
+        padding:0.975rem;
+        border: 1px solid #ccc;
+        background-color: #fafafa;
+        width: 20rem;
+        min-height: 15rem;
+        border-radius: 4px;
+        box-shadow: 0 0px 3px 0px rgba(0, 0, 0, 0.1), 0 3px 5px 0 rgba(0, 0, 0, 0.1);
+    }
+ 
+    .cont-comment .card-comment .card-comment-header {
+        display: flex;
+        flex-direction: row;
+        justify-content:flex-start
+    }
+ 
+    .cont-comment .card-comment .avatar {
+        width: 5rem;
+        height: 5rem;
+        border-radius: 150px;
+        background-color: #666;
+        border: 3px solid #C0CAD1;
+    }
+ 
+    .title-user {
+        display: flex;
+        flex-direction: column;
+    }
+ 
+    .comment-name {
+        color:#063855;
+        font-size: 1.125rem;
+        margin-left: .9375rem;
+        margin-TOP:15px;
+    }
+ 
+    .comment-stars {
+        margin-left:1rem;
+    }
+ 
+    .card-comment blockquote {
+        margin: 0.600rem;
+        padding: .875rem !important;
+    }
+ 
+    .p-comment {
+        font-family: "IBM Plex Sans", sans-serif;
+        font-weight: 500;
+        font-size:1rem;   
+    }
+ 
+    /* end card comments */
+ 
+    /* google maps */
+ 
+        .map-google {
+        width:100%;
+        height:20rem;
+    }
+ 
+    /* formulario contacto */
+ 
+    .form-label {
+        font-weight:600;
+    }
+ 
+ 
+    ::placeholder {
+        color: #ccc !important;
+        opacity: 1; /* Firefox */
+    }
+ 
+    /* header - redes */
+ 
+    .redes {
+        display: flex;
+        height: 2.1875rem;
+        background-color: #1A3755!important;
+        /* #224971*/
+        color: #fafafa;
+    }
+ 
+    .redes nav ul {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        justify-content: flex-end;
+    }
+ 
+    .redes nav ul li {
+        margin-top: .3125rem;
+        margin-left: .625rem;
+        font-size: .9375rem;   
+    }
+ 
+    .fa-instagram , .fa-facebook-square , .icon-ws-footer{
+        font-size: 1.125rem !important;
+        color: #fafafa;
+        margin-top: .25rem;
+        margin-left: .25rem;
+    }
+ 
+    .fa-instagram:hover , .fa-facebook-square:hover {
+        color: #ccc;
+    }
+ 
+    .text-gray {
+        color:#ccc;
+    }
+ }
+ 
+ @media only screen and (min-width:992px){
+ 
+    .card-f.mheight {
+        min-height: 210px !important;
+    }
+ 
+ }

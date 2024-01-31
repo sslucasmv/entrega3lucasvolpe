@@ -1,0 +1,13 @@
+
+
+
+
+$sizes:1;
+
+
+@each $size in $sizes {
+    .todos-#{$size}{
+        font-size: $size;
+    }
+    $size: $size + 1;
+}

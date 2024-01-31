@@ -1,0 +1,21 @@
+
+@mixin disF-jContent($d,$f,$Jc){
+    display: $d;
+    flex-direction:$f;
+    justify-content:$Jc;
+}
+
+@mixin disF-tAlign($d,$f,$Ta){
+    display: $d;
+    flex-direction:$f;
+    align-items:$Ta;
+}
+
+
+@mixin disF-jContent-Ai($d,$f,$Jc,$Ai) {
+    display: $d;
+    flex-direction:$f;
+    justify-content:$Jc;
+    align-items:$Ai;
+}
+
