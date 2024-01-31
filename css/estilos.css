@@ -2,6 +2,7 @@
 * {
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 
 ul, ul li {
@@ -81,25 +82,35 @@ a.active {
 .cont-cards {
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
   width: 100% !important;
+  gap: 15px !important;
+  padding: 10px;
 }
 
 .card-h img {
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
   width: 100%;
 }
 
 .card-default {
   display: flex;
   flex-direction: column;
+  border: 1px solid #ddd;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  transition: transform 0.5s;
+}
+.card-default:hover {
+  border: 1px solid #999;
+  transform: scale(1.02);
 }
 
 .card-f {
-  padding: 10px;
   background-color: #fff;
-  border: 1px solid #ddd;
   height: auto !important;
+  padding: 0.625rem;
 }
 
 .card-f h2 {
@@ -580,6 +591,10 @@ ul.list {
 }
 .todos-1 {
   font-size: 1;
+}
+
+.hola {
+  font-size: 12px;
 }
 
 /* ### FOOTER ###*/
