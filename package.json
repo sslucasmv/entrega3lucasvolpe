@@ -1,5 +1,5 @@
 {
-  "name": "sassPreentrega3",
+  "name": "sasspreentrega3",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -13,3 +13,4 @@
     "node-sass": "^9.0.0"
   }
 }
+
