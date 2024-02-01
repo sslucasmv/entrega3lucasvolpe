@@ -49,5 +49,35 @@
  .banner .titulobanner {
     color: #fff;
  }
+
+ .cont-animation {
+   display: inline-block;
+   margin-top: 5px;
+ }
+
+ .texto {
+   width:100%;   
+   animation: animacion 1.5s steps(25), transparent .5s step-end infinite alternate;
+   white-space: nowrap;
+   overflow: hidden;
+   color: #333;
+   border-right: 3px solid;
+ }
+ 
+ @keyframes animacion {
+   from {
+     width: 0px
+   }
+ }
+     
+ @keyframes transparent {
+   50% {
+     border-color: transparent
+   }
+ }
+ 
+ 
+ 
+ 
  
  
