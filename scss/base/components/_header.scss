@@ -1,12 +1,9 @@
 
-
 body {
 
-    background-color: map-get($bgColor, Body) !important;
+    background-color: map-get($bgColor, Body);
     font-family: "Karla", sans-serif;
 }
-
-
 
 /* elementos menu top  */
 
@@ -52,7 +49,7 @@ header {
  
  a.active {
     color: skyblue;
-    border-bottom: 3px solid #029DCA !important;
+    border-bottom: 3px solid #029DCA;
  }
  
  .redes {
@@ -62,18 +59,32 @@ header {
     background-color: map-get($bgColor , SocialBar );
     }
 
-
- 
  .info-footer li a{
     list-style: none;
-    text-decoration: none !important;
+    text-decoration: none;
  
  }
  
  .link-dnone{
-    text-decoration: none !important;
+    text-decoration: none;
  }
- 
- .redes nav ul li {
-   font-size: map-get($fontSize, fonts16); 
- }
+
+.social-bar {
+            display: flex;
+            flex-direction: row;
+            justify-content: end;
+            margin-top:0.4375rem;
+          
+            i {
+               font-size: map-get($fontSize, fonts15);
+               margin-left: 5px; 
+            }
+
+            a i {
+               font-size: map-get($fontSize, fonts14);
+               margin-top: 5px;
+            }
+}
+
+
+

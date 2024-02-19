@@ -3,8 +3,8 @@
 
 .cont-cards {
     @include flexColSE;
-    width: 100% !important;
-    gap: 15px !important;
+    width: 100%;
+    gap: 15px;
     padding: 10px;
     
  }
@@ -29,21 +29,18 @@
 }
  
  .card-f {
-           
             background-color:map-get($bgColorComponents , CardFooter );
-            height: auto !important;
+            height: auto;
             padding: .625rem;
        
  }
 
- 
- 
  .card-f h2 {
     font-size: 1.125rem;
  }
  
  .card-f.mheight {
-    min-height: auto !important;
+    min-height: auto;
  }
 
  
@@ -115,7 +112,7 @@
  
  .card-comment blockquote {
      margin:0.3125rem;
-     padding: .800rem !important;
+     padding: .800rem;
  }
  
  .p-comment {
@@ -124,7 +121,6 @@
     font-weight: 500;
         
  }
- 
  
  main {
     border-top: 4px solid #1A3755;

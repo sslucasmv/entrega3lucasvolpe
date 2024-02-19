@@ -1,22 +1,21 @@
-/* default pantalla smarthphone - (mobile first) */
 * {
   margin: 0;
-  padding: 0px;
+  padding: 0;
   list-style: none;
 }
 
 ul, ul li {
   list-style: none;
-  margin: 0 !important;
-  padding: 0 !important;
+  margin: 0;
+  padding: 0;
 }
 
 a {
-  text-decoration: none !important;
+  text-decoration: none;
 }
 
 body {
-  background-color: #F9F8F7 !important;
+  background-color: #F9F8F7;
   font-family: "Karla", sans-serif;
 }
 
@@ -61,7 +60,7 @@ a.nav-link:hover {
 
 a.active {
   color: skyblue;
-  border-bottom: 3px solid #029DCA !important;
+  border-bottom: 3px solid #029DCA;
 }
 
 .redes {
@@ -73,15 +72,26 @@ a.active {
 
 .info-footer li a {
   list-style: none;
-  text-decoration: none !important;
+  text-decoration: none;
 }
 
 .link-dnone {
-  text-decoration: none !important;
+  text-decoration: none;
 }
 
-.redes nav ul li {
-  font-size: 1rem;
+.social-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  margin-top: 0.4375rem;
+}
+.social-bar i {
+  font-size: 0.9375rem;
+  margin-left: 5px;
+}
+.social-bar a i {
+  font-size: 0.875rem;
+  margin-top: 5px;
 }
 
 /* cards default */
@@ -89,8 +99,8 @@ a.active {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  width: 100% !important;
-  gap: 15px !important;
+  width: 100%;
+  gap: 15px;
   padding: 10px;
 }
 
@@ -115,7 +125,7 @@ a.active {
 
 .card-f {
   background-color: #fff;
-  height: auto !important;
+  height: auto;
   padding: 0.625rem;
 }
 
@@ -124,7 +134,7 @@ a.active {
 }
 
 .card-f.mheight {
-  min-height: auto !important;
+  min-height: auto;
 }
 
 /* card personalizada  commentarios   */
@@ -199,7 +209,7 @@ a.active {
 
 .card-comment blockquote {
   margin: 0.3125rem;
-  padding: 0.8rem !important;
+  padding: 0.8rem;
 }
 
 .p-comment {
@@ -311,23 +321,6 @@ main {
   text-shadow: 1px 1px 2px #ddd;
 }
 
-/* ### FOOTER ### */
-/* lista redes, datos  */
-/*
-ul.list {
-    list-style: none;
-    margin:0;
-    padding: 0;
- }
-
- ul.list li {
-    margin-top: .3125rem;
- }
-
- ul.list li b {
-    color:#ccc;
-    font-weight:medium;
- }*/
 footer {
   background-color: #323A40;
 }
@@ -340,16 +333,18 @@ footer {
 
 .footer-items h3 {
   font-size: 1.25rem;
-  color: #ccc !important;
+  color: #ccc;
+  border-bottom: 1px solid #666;
+  padding-bottom: 0.9375rem;
 }
 
-.footer-items hr {
-  margin-bottom: 0.5rem;
-}
-
-.footer-items ul li {
-  margin: 0.375rem 0 0.3rem 0 !important;
+.footer-items ul {
+  margin: 0;
   padding: 0;
+}
+.footer-items ul li {
+  margin: 0.375rem 0px 0.3rem 0px;
+  padding: 0px !important;
   font-size: 0.875rem;
 }
 .footer-items ul li a {
@@ -357,6 +352,10 @@ footer {
 }
 .footer-items ul li a:hover {
   color: #F0BE10;
+}
+
+.footer-items p {
+  color: #ddd;
 }
 
 .icon-footer {
@@ -620,6 +619,5 @@ footer {
     min-height: 210px !important;
   }
 }
-/* ### FOOTER ###*/
 
 /*# sourceMappingURL=estilos.css.map */

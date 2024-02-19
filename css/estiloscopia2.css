@@ -1,0 +1,626 @@
+/* default pantalla smarthphone - (mobile first) */
+* {
+    margin: 0;
+    padding: 0px;
+    list-style: none;
+  }
+  
+  ul, ul li {
+    list-style: none;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  
+  a {
+    text-decoration: none !important;
+  }
+  
+  body {
+    background-color: #F9F8F7 !important;
+    font-family: "Karla", sans-serif;
+  }
+  
+  /* elementos menu top  */
+  /* #### HEADER #### */
+  header {
+    background-color: #fff;
+  }
+  
+  .logo img {
+    width: 12.5rem;
+    height: 3.4375rem;
+  }
+  
+  /* menu top */
+  .nav-fs {
+    font-size: 1.125rem;
+  }
+  
+  .navbar-nav ul li a {
+    color: #ccc;
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+  }
+  
+  .navbar-nav ul li a:hover {
+    color: #1A3755;
+    background-color: #ddd;
+  }
+  
+  a.nav-link {
+    border-bottom: 3px solid #fff;
+    padding: 10px 15px 10px 15px;
+  }
+  
+  a.nav-link:hover {
+    color: #444;
+    display: flex;
+    border-bottom: 3px solid #ddd;
+    background-color: #fafafa;
+  }
+  
+  a.active {
+    color: skyblue;
+    border-bottom: 3px solid #029DCA !important;
+  }
+  
+  .redes {
+    height: 100px;
+    display: none;
+    color: #fafafa;
+    background-color: #1A3755;
+  }
+  
+  .info-footer li a {
+    list-style: none;
+    text-decoration: none !important;
+  }
+  
+  .link-dnone {
+    text-decoration: none !important;
+  }
+  
+  .redes nav ul li {
+    font-size: 1rem;
+  }
+  
+  /* cards default */
+  .cont-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100% !important;
+    gap: 15px !important;
+    padding: 10px;
+  }
+  
+  .card-h img {
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    width: 100%;
+  }
+  
+  .card-default {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    transition: transform 0.5s;
+  }
+  .card-default:hover {
+    border: 1px solid #999;
+    transform: scale(1.02);
+  }
+  
+  .card-f {
+    background-color: #fff;
+    height: auto !important;
+    padding: 0.625rem;
+  }
+  
+  .card-f h2 {
+    font-size: 1.125rem;
+  }
+  
+  .card-f.mheight {
+    min-height: auto !important;
+  }
+  
+  /* card personalizada  commentarios   */
+  .titulo-booking {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .titulo-booking h2 {
+    font-size: 1.125rem;
+  }
+  
+  .titulo-booking h3 {
+    font-size: 1rem;
+  }
+  
+  .titulo-booking h4 {
+    font-size: 0.875rem;
+  }
+  
+  .cont-comment {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
+    margin-top: 1.875rem;
+    padding-bottom: 1.25rem;
+  }
+  
+  .cont-comment .card-comment {
+    padding: 0.975rem;
+    border: 1px solid #ccc;
+    background-color: #fafafa;
+    width: 100%;
+    margin-bottom: 10px;
+    min-height: 140;
+    border-radius: 4px;
+    box-shadow: 0 0px 3px 0px rgba(0, 0, 0, 0.1), 0 3px 5px 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  .cont-comment .card-comment .card-comment-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  
+  .cont-comment .card-comment .avatar {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 150px;
+    background-color: #666666;
+    border: 3px solid #C0CAD1;
+  }
+  
+  .title-user {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .comment-name {
+    color: #063855;
+    font-size: 1rem;
+    margin-left: 0.9375rem;
+    margin-TOP: 5px;
+  }
+  
+  .comment-stars {
+    margin-left: 1rem;
+  }
+  
+  .card-comment blockquote {
+    margin: 0.3125rem;
+    padding: 0.8rem !important;
+  }
+  
+  .p-comment {
+    font-size: 0.875rem;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 500;
+  }
+  
+  main {
+    border-top: 4px solid #1A3755;
+  }
+  
+  /* banner */
+  .banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 12.5rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 5%;
+    border-bottom: 10px solid #1A3755;
+  }
+  
+  .banner.uno {
+    background-image: url("../img/banner.jpg");
+  }
+  
+  .banner.dos {
+    background-image: url("../img/torreon.jpg");
+  }
+  
+  .banner.tres {
+    background-image: url("../img/mdpwall.jpg");
+  }
+  
+  .banner.cuatro {
+    background-image: url("../img/casino2.jpg");
+  }
+  
+  .banner .cont-p {
+    width: auto;
+    background-color: rgba(33, 42, 49, 0.7);
+    padding: 10px 30px 5px 30px;
+    border-radius: 4px;
+  }
+  
+  .banner .cont-p p.text-banner {
+    display: none;
+  }
+  
+  .banner .cont-p h1 {
+    font-size: 1.5rem;
+    color: #F8F9FA;
+    text-align: center;
+  }
+  
+  .banner .titulobanner {
+    color: #fff;
+  }
+  
+  .cont-animation {
+    display: inline-block;
+    margin-top: 5px;
+  }
+  
+  .texto {
+    width: 100%;
+    animation: animacion 1.5s steps(25), transparent 0.5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #333;
+    border-right: 3px solid;
+  }
+  
+  @keyframes animacion {
+    from {
+      width: 0px;
+    }
+  }
+  @keyframes transparent {
+    50% {
+      border-color: transparent;
+    }
+  }
+  /* MENSAJE PUBLICIDAD */
+  .text-alignC {
+    text-align: center;
+  }
+  
+  .info-advice {
+    display: flex;
+    justify-content: center;
+    padding: 1.25rem;
+    border: 1px solid #FFE084;
+    border-radius: 6px;
+    color: #D15001;
+    background-color: #FFEAA8;
+    margin-top: 0.9375rem;
+    text-align: center;
+  }
+  
+  .info-advice h2 {
+    font-size: 1.25rem;
+    font-weight: bolder;
+    margin-top: 0.625rem;
+    text-shadow: 1px 1px 2px #ddd;
+  }
+  
+  /* ### FOOTER ### */
+  /* lista redes, datos  */
+  /*
+  ul.list {
+      list-style: none;
+      margin:0;
+      padding: 0;
+   }
+  
+   ul.list li {
+      margin-top: .3125rem;
+   }
+  
+   ul.list li b {
+      color:#ccc;
+      font-weight:medium;
+   }*/
+  footer {
+    background-color: #323A40;
+  }
+  
+  .footer-items {
+    margin-top: 1rem;
+    color: #fafafa;
+    padding-top: 1.25rem;
+  }
+  
+  .footer-items h3 {
+    font-size: 1.25rem;
+    color: #ccc !important;
+  }
+  
+  .footer-items hr {
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer-items ul li {
+    margin: 0.375rem 0 0.3rem 0 !important;
+    padding: 0;
+    font-size: 0.875rem;
+  }
+  .footer-items ul li a {
+    color: #fafafa;
+  }
+  .footer-items ul li a:hover {
+    color: #F0BE10;
+  }
+  
+  .icon-footer {
+    display: block;
+    margin-right: 0.5rem;
+  }
+  
+  .col-sm-ds-none {
+    display: none;
+  }
+  
+  .col-md-ds-none {
+    display: none;
+  }
+  
+  /* elementos del footer */
+  .ds-none {
+    display: none;
+  }
+  
+  /* final estilos mobile first */
+  @media only screen and (min-width: 480px) {
+    .map-google {
+      width: 100%;
+      height: 16rem;
+    }
+  }
+  /* version tablet */
+  @media only screen and (min-width: 600px) {
+    .map-google {
+      width: 100%;
+      height: 20rem;
+    }
+    h3.ds-none {
+      display: none !important;
+    }
+    .map-google {
+      width: 100%;
+      height: 18rem;
+    }
+    .col-sm-ds-none {
+      display: none;
+    }
+    .col-md-ds-none {
+      display: none;
+    }
+  }
+  @media only screen and (min-width: 720px) {
+    h3.ds-none {
+      display: none !important;
+    }
+    hr.ds-none {
+      display: none !important;
+    }
+    .map-google {
+      width: 100%;
+      height: 18rem;
+    }
+    .col-sm-ds-none {
+      display: none;
+    }
+    .col-md-ds-none {
+      display: none;
+    }
+    .ds-lg-none {
+      display: none !important;
+    }
+  }
+  @media only screen and (min-width: 748px) {
+    h3.ds-none {
+      display: block !important;
+    }
+    hr.ds-none {
+      display: block !important;
+    }
+    .map-google {
+      width: 100%;
+      height: 18rem;
+    }
+    .col-sm-ds-none {
+      display: none;
+    }
+    .col-md-ds-none {
+      display: block;
+    }
+    li.ds-lg-none {
+      display: none !important;
+    }
+  }
+  @media only screen and (min-width: 768px) {
+    .card-f {
+      min-height: 140px;
+    }
+    .card-f.mheight {
+      min-height: 140px !important;
+    }
+  }
+  /* pantallas de escritorio */
+  @media only screen and (min-width: 940px) {
+    .col-sm-ds-none {
+      display: block;
+    }
+    li.ds-lg-none {
+      display: none !important;
+    }
+    .col-md-ds-none {
+      display: block;
+    }
+    .cont-cards {
+      display: flex;
+      flex-direction: row !important;
+      gap: 20px;
+      width: 100% !important;
+    }
+    .ds-none {
+      display: block;
+    }
+    .jcflex-end {
+      justify-content: flex-end;
+    }
+    .display-v {
+      display: flex !important;
+    }
+    /* banner mas alto  */
+    .banner {
+      display: flex;
+      height: 22.5rem;
+    }
+    .banner .cont-p p.text-banner {
+      display: flex;
+    }
+    .titulobanner {
+      display: none;
+    }
+    .banner .cont-p {
+      width: 60%;
+      padding: 10px 30px 5px 30px;
+      border-radius: 4px;
+    }
+    p.text-banner {
+      display: flex;
+      color: #fff;
+      font-size: 1.375rem;
+    }
+    /* comentarios clientes - booking  */
+    .titulo-booking {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+    .titulo-booking h2 {
+      font-size: 1.25rem;
+    }
+    .titulo-booking h3 {
+      font-size: 1rem;
+    }
+    .titulo-booking h4 {
+      font-size: 0.875rem;
+    }
+    /* comentarios booking - card commentarios  */
+    .cont-comment {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      width: 100%;
+      height: auto;
+      gap: 5px;
+      margin-top: 1.875rem;
+      padding-bottom: 1.25rem;
+    }
+    .cont-comment .card-comment {
+      padding: 0.975rem;
+      border: 1px solid #ccc;
+      background-color: #fafafa;
+      width: 20rem;
+      min-height: 15rem;
+      border-radius: 4px;
+      box-shadow: 0 0px 3px 0px rgba(0, 0, 0, 0.1), 0 3px 5px 0 rgba(0, 0, 0, 0.1);
+    }
+    .cont-comment .card-comment .card-comment-header {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+    }
+    .cont-comment .card-comment .avatar {
+      width: 5rem;
+      height: 5rem;
+      border-radius: 150px;
+      background-color: #666;
+      border: 3px solid #C0CAD1;
+    }
+    .title-user {
+      display: flex;
+      flex-direction: column;
+    }
+    .comment-name {
+      color: #063855;
+      font-size: 1.125rem;
+      margin-left: 0.9375rem;
+      margin-TOP: 15px;
+    }
+    .comment-stars {
+      margin-left: 1rem;
+    }
+    .card-comment blockquote {
+      margin: 0.6rem;
+      padding: 0.875rem !important;
+    }
+    .p-comment {
+      font-family: "IBM Plex Sans", sans-serif;
+      font-weight: 500;
+      font-size: 1rem;
+    }
+    /* end card comments */
+    /* google maps */
+    .map-google {
+      width: 100%;
+      height: 20rem;
+    }
+    /* formulario contacto */
+    .form-label {
+      font-weight: 600;
+    }
+    ::placeholder {
+      color: #ccc !important;
+      opacity: 1; /* Firefox */
+    }
+    /* header - redes */
+    .redes {
+      display: flex;
+      height: 2.1875rem;
+      color: #fafafa;
+    }
+    .redes nav ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      list-style: none;
+      margin-top: 0.375rem !important;
+    }
+    .redes nav ul li {
+      margin-top: 0.3125rem;
+      margin-left: 0.625rem;
+      font-size: 0.9375rem;
+    }
+    .fa-instagram, .fa-facebook-square, .icon-ws-footer {
+      font-size: 1.125rem !important;
+      color: #fafafa;
+      margin-top: 0.25rem;
+      margin-left: 0.5rem;
+    }
+    .fa-instagram:hover, .fa-facebook-square:hover {
+      color: #ccc;
+    }
+    .text-gray {
+      color: #ccc;
+    }
+  }
+  @media only screen and (min-width: 992px) {
+    .card-f.mheight {
+      min-height: 210px !important;
+    }
+  }
+  /* ### FOOTER ###*/
+  
+  /*# sourceMappingURL=estilos.css.map */
+  
